@@ -1,0 +1,4 @@
+read -p 'ESSID: ' eSSID
+read -p 'KEY: ' key
+iwconfig wlan0 essid $eSSID key $key
+

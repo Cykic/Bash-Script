@@ -1,0 +1,7 @@
+service NetworkManager restart
+ 1423  iwconfig 
+ 1424  airmon-ng start wlan0 7
+ 1425  sudo airmon-ng start wlan0 7
+ 1426  sudo airmon-ng stop wlan0mon
+ 1427  ifconfig wlan0 sudo ifconfig wlan0 up
+sudo ifconfig
